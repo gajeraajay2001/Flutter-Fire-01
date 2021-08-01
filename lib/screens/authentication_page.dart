@@ -419,6 +419,7 @@ enum AuthByMailMode {
   SignUp,
   SignIn,
 }
+
 enum AuthenticationMode {
   ByMail,
   ByPhoneNumber,

@@ -20,7 +20,8 @@ class _SecondPageState extends State<SecondPage> {
               await FirebaseAuth.instance.signOut();
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text("Logout Successfully..... "),
+                  content: Text("Logout Successfully"
+                      "..... "),
                 ),
               );
               Navigator.of(context)
