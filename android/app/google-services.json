@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "859425709305",
+    "project_id": "tribal-dispatch-315805",
+    "storage_bucket": "tribal-dispatch-315805.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859425709305:android:bf5311992b87a108a75628",
+        "android_client_info": {
+          "package_name": "com.example.flutterfire01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859425709305-0slnkq17he7m01adi5lhpdj6msh65qsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutterfire01",
+            "certificate_hash": "077bc154fc7e1a1cdeb8d27fae0aa801260ac91a"
+          }
+        },
+        {
+          "client_id": "859425709305-so1s0lmsrlblomnjcq6m496th35qsmb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhxzPw6yr5RAjD3fLKYluTLjqNUuOojnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859425709305-so1s0lmsrlblomnjcq6m496th35qsmb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
