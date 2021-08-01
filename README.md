@@ -5,6 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+![Screen Shots](https://raw.githubusercontent.com/gajeraajay2001/Flutter-Fire-01/main/assets/screenshots/WhatsApp%20Image%202021-08-01%20at%207.19.31%20PM%20(1).jpeg)
 
 A few resources to get you started if this is your first Flutter project:
 
