@@ -1,6 +1,8 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterfire01/screens/cloudfirestoredb_page.dart';
+import 'package:flutterfire01/screens/realtimedb_page.dart';
 import 'package:flutterfire01/screens/second_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
@@ -84,6 +86,18 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                 primary: Colors.redAccent,
                 onPrimary: Colors.black,
               ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed(RealTimeDBPage.routes);
+              },
+              child: Text("RealTime Database"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed(CloudFireStoreDBPage.routes);
+              },
+              child: Text("CloudFireStore Database"),
             ),
           ],
         ),
